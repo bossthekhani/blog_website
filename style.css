@@ -1,0 +1,148 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7DC6F;
+    min-height: 100vh; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff; /* Ensure background color covers full container */
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 10px 10px; /* Adjust border radius */
+    margin-bottom: 12px; /* Increase margin bottom for spacing */
+}
+
+.card-content {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.learning-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: inline-block;
+    margin: 10px;
+}
+
+.learning-btn:hover {
+    background-color: #444;
+}
+
+.published-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: "";
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify; 
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+    object-position: center;
+    background-color: #fff;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.author-name {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px; /* Adjust margin top for spacing */
+}
+
+.attribution {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 0 5px; /* Adjust margin for links */
+    font-weight: 800;
+}
+
+.attribution a:hover {
+    color: #ccc;
+}
